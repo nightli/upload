@@ -1,0 +1,276 @@
+body{
+	font-family: 'Microsoft YaHei';
+	font-size: 12px;
+	color: #666;
+}
+/*顶部状态桥样式*/
+.header_con{
+	height: 29px;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #ddd;
+}
+
+.header{
+	width: 1200px;
+	height: 29px;
+	margin: 0 auto;
+}
+
+.welcome{
+	font: 12px/29px 'Microsoft YaHei';
+	color: #666;
+}
+
+.user_login, .user_shopping, .user_welcome{
+	height: 29px;
+	line-height: 29px;
+}
+
+.user_login a, .user_shopping a{
+	color: #666;
+}
+
+.user_login a:hover, .user_shopping a:hover{
+	color: #f80;
+}
+
+.user_login span, .user_shopping span{
+	margin: 0 15px;
+	color: #cecece;
+}
+
+.user_welcome{
+	display: none;
+}
+
+.user_welcome em{
+	color: #f80;
+}
+
+.logo_bar{
+	width: 1200px;
+	height: 144px;
+	margin: 0 auto;
+}
+
+.logo{
+	width: 193px;
+	height: 82px;
+	margin: 38px 0 19px 0;
+}
+
+.search{
+	width:720px;
+	height:48px;
+	margin-left: 50px;
+	margin-top: 38px;
+	border: 1px solid #71b402;
+	background: url(../images/icons.png) 1px 1px no-repeat;
+}
+
+.search_text{
+	height: 48px;
+	width: 620px;
+	border: 0px;
+	outline: none;
+	margin-left: 30px;
+	
+}
+
+.search_btn{
+	height:48px;
+	width: 70px;
+	border: 1px solid #71b402;
+	background-color: #71b402;
+	color: #fff;
+}
+
+.chart{
+	height: 48px;
+	width:160px;
+	border: 1px solid #f7f7f7;
+	margin-top: 38px;
+	background: url(../images/icons.png) -3px -79px no-repeat;
+}
+
+.chart a{
+	margin-top: 15px;
+	margin-left: 30px;
+	font-family: 'Microsoft YaHei';
+	color: #37ab40;
+}
+
+.chart span{
+	height: 48px;
+	width: 48px;
+	line-height: 48px;
+	background-color: #ff8605;
+	text-align: center;
+	font: bold;
+	color: #fff;
+}
+
+.catalog{
+    height: 40px;
+	border-bottom:1px solid #37ab40;
+	overflow: hidden;
+}
+
+.catalog_all{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.catalog_sum{
+	width: 193px;
+	height: 40px;
+	background-color: #37ab40;
+	text-align: center;
+	line-height: 40px;
+
+}
+
+.catalog_sum h1{
+	font: 20px/41px 'Microsoft YaHei';
+	color: #fff;
+}
+
+.catalog_all li{
+	float: left;
+	margin-left: 15px;
+}
+
+.catalog_all ul{
+	line-height: 40px;
+}
+
+.detail{
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.detail_left{
+	width: 191px;
+	height: 270px;
+	background: url(../images/icons.png) 28px -211px no-repeat;
+}
+
+.detail_left li{
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	margin-top: -1px;
+	background: url(../images/icons.png) 125px -782px no-repeat;
+}
+
+.detail_center{
+	width: 1001px;
+	height: 270px;
+	position: relative;
+}
+.ar_right{
+	width: 15px;
+	height: 23px;
+	position: absolute;
+	left: 11px;
+	top: 122px;
+	background: url(../images/leftarrow.png) 1px 1px no-repeat;
+}
+.ar_left{
+	width: 15px;
+	height: 23px;
+	position: absolute;
+	right:252px;
+	top: 122px;
+	background: url(../images/rightarrow.png) -7px 1px no-repeat;
+}
+
+.one{
+	width: 15px;
+	height: 15px;
+	background-color: #cecece;
+	position: absolute;
+	left: 340px;
+	top: 240px;
+	border-radius: 50%;
+}
+
+.two{
+	width: 15px;
+	height: 15px;
+	background-color: #cecece;
+	position: absolute;
+	left: 370px;
+	top: 240px;
+	border-radius: 50%;
+}
+
+.three{
+	width: 15px;
+	height: 15px;
+	background-color: #cecece;
+	position: absolute;
+	left: 400px;
+	top: 240px;
+	border-radius: 50%;
+}
+.banner{
+	width: 240px;
+	height: 137px;
+}
+
+.right01, .right02{
+	width: 240px;
+	height: 135px;
+	display: block;
+}
+
+.catalog_fru{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+	border-bottom: 1px solid #64f082;
+}
+
+.fur_sum{
+	font: 16px/16px 'Microsoft YaHei';
+	line-height: 25px;
+	color: #64f082;
+}
+
+.catalog_fru li{
+	width: 30px;
+	display: inline-block;
+	line-height: 28px;
+	margin-left: 20px;
+}
+
+.de_right li{
+	width: 190px;
+	height: 200px;
+	line-height: 200px;
+	margin-left: 5px;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.de_name li{
+	width: 190px;
+	text-align: center;
+	font-size: 20px;
+	display: inline-block;
+	margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.de_price li{
+	width: 190px;
+	font-size: 16px;
+	text-align: center;
+	display: inline-block;
+	margin-left: 5px;
+	color: red;
+}
